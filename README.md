@@ -49,7 +49,7 @@ Evaluates whether the project meets the requirements of the practical assignment
 
 
 ## Functional Requirements
-
+|----|-------------|
 ID| Requirement
 FR-01| The system shall allow users to create tasks.
 FR-02| The system shall display a list of tasks.
@@ -60,7 +60,7 @@ FR-06| The system shall preserve task data between sessions.
 
 
 ## Non-Functional Requirements
-
+|----|-------------|
 ID| Requirement
 NFR-01| Task list loading time shall not exceed 2 seconds.
 NFR-02| The application shall operate without critical failures during testing.
@@ -71,7 +71,7 @@ NFR-06| System availability shall be at least 95%.
 
 
 ## Product Backlog
-
+|----|-------------|
 ID| User Story| Priority
 US-01| As a user, I want to create tasks so that I do not forget important activities.| Must
 US-02| As a user, I want to view all tasks so that I can track my work.| Must
