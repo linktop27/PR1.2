@@ -1,102 +1,86 @@
-# TaskFlow
+#TaskFlow
 
-## Project Overview
+## Опис проєкту
 
-TaskFlow is a simple task management application designed to help users organize their daily activities and avoid missing important deadlines.
+TaskFlow — це простий застосунок для керування особистими завданнями, який допомагає користувачам організовувати свої справи та не пропускати важливі дедлайни.
 
-The application allows users to create tasks, view them in a list, and mark them as completed. The project is developed as a Minimum Viable Product (MVP) focused on the core functionality of personal task management.
-
-
-## Problem Statement
-
-Many people use multiple notebooks, messengers, and note-taking applications to keep track of their tasks. As a result, important tasks can be forgotten and deadlines may be missed.
-
-TaskFlow provides a centralized and easy-to-use solution for managing personal tasks.
+Застосунок дозволяє створювати завдання, переглядати їх у списку та позначати як виконані. Проєкт розробляється як MVP (мінімально життєздатний продукт), що реалізує основний функціонал керування завданнями.
 
 
-## Target Audience
+## Проблема
 
-- Students
-- School pupils
-- Office workers
-- Anyone who wants to organize personal tasks efficiently
+Багато людей використовують різні записники, месенджери та нотатки для зберігання завдань. Через це важливі справи можуть губитися, а дедлайни — пропускатися.
 
-
-## MVP Features
-
-The first version of the product includes:
-
-- Create a task
-- View tasks in a list
-- Mark tasks as completed
-
-These features provide the main value of the product and support the primary user workflow.
+TaskFlow надає єдине зручне місце для керування особистими завданнями.
 
 
-## Stakeholders
+## Цільова аудиторія
 
-User
-
-Expects a simple and intuitive interface for managing personal tasks.
-
-Developer
-
-Responsible for implementing features, maintaining code quality, and ensuring system stability.
-
-Instructor
-
-Evaluates whether the project meets the requirements of the practical assignment.
+- Студенти
+- Школярі
+- Працівники офісів
+- Усі, хто хоче ефективно організовувати свої справи
 
 
-## Functional Requirements
-
-ID| Requirement
-|----|-------------|
-FR-01| The system shall allow users to create tasks.
-FR-02| The system shall display a list of tasks.
-FR-03| The system shall allow users to edit task names.
-FR-04| The system shall allow users to delete tasks.
-FR-05| The system shall allow users to mark tasks as completed.
-FR-06| The system shall preserve task data between sessions.
+Ці функції забезпечують основну цінність продукту та реалізують головний сценарій використання.
 
 
-## Non-Functional Requirements
+## Стейкхолдери
 
-ID| Requirement
-|----|-------------|
-NFR-01| Task list loading time shall not exceed 2 seconds.
-NFR-02| The application shall operate without critical failures during testing.
-NFR-03| User data shall not be lost after page refresh.
-NFR-04| Task creation shall require no more than 3 user actions.
-NFR-05| The application shall support Chrome, Firefox, and Edge browsers.
-NFR-06| System availability shall be at least 95%.
+Користувач
 
+Очікує простий та зрозумілий інтерфейс для керування особистими завданнями.
 
-## Product Backlog
+Розробник
 
-ID| User Story| Priority
-|----|------------|----------|
-US-01| As a user, I want to create tasks so that I do not forget important activities.| Must
-US-02| As a user, I want to view all tasks so that I can track my work.| Must
-US-03| As a user, I want to mark tasks as completed so that I can monitor progress.| Must
-US-04| As a user, I want to delete tasks so that I can remove unnecessary items.| Should
-US-05| As a user, I want to edit tasks so that I can correct mistakes.| Should
-US-06| As a user, I want reminders so that I do not miss important tasks.| Could
+Відповідає за реалізацію функціоналу, якість коду та стабільність роботи системи.
+
+Викладач
+
+Оцінює відповідність проєкту вимогам практичної роботи.
 
 
-## Main User Scenario
+## Функціональні вимоги (FR)
 
-1. Open the application.
-2. Click Create Task.
-3. Enter a task name.
-4. Save the task.
-5. View the task in the task list.
-6. Mark the task as completed after finishing it.
+ID| Вимога
+|----|---------|
+FR-01| Система повинна дозволяти користувачу створювати завдання.
+FR-02| Система повинна відображати список усіх завдань.
+FR-03| Система повинна дозволяти редагувати назву завдання.
+FR-04| Система повинна дозволяти видаляти завдання.
+FR-05| Система повинна дозволяти позначати завдання як виконане.
+FR-06| Система повинна зберігати дані між сесіями користувача.
 
 
-## Success Criteria
+## Нефункціональні вимоги (NFR)
 
-- Users can complete the main workflow without assistance.
-- Task creation takes less than 30 seconds.
-- No critical defects are found during testing.
-- At least 80% of users successfully complete the scenario.
+ID| Вимога
+|----|---------|
+NFR-01| Час завантаження списку завдань не повинен перевищувати 2 секунди.
+NFR-02| Система повинна працювати без критичних помилок під час тестування.
+NFR-03| Дані користувача не повинні втрачатися після оновлення сторінки.
+NFR-04| Створення завдання повинно вимагати не більше 3 дій користувача.
+NFR-05| Система повинна коректно працювати в Chrome, Firefox та Edge.
+NFR-06| Доступність системи повинна становити не менше 95%.
+
+
+## Product Backlog (User Stories)
+
+ID| User Story| Пріоритет
+|----|------------|------------|
+US-01| Як користувач, я хочу створювати завдання, щоб не забувати важливі справи.| Must
+US-02| Як користувач, я хочу переглядати список завдань, щоб контролювати свої справи.| Must
+US-03| Як користувач, я хочу позначати завдання як виконані, щоб відстежувати прогрес.| Must
+US-04| Як користувач, я хочу видаляти завдання, щоб прибирати непотрібні записи.| Should
+US-05| Як користувач, я хочу редагувати завдання, щоб виправляти помилки.| Should
+US-06| Як користувач, я хочу отримувати нагадування, щоб не пропускати важливі справи.| Could
+
+
+## Основний сценарій використання
+
+1. Користувач відкриває застосунок.
+2. Натискає кнопку «Створити завдання».
+3. Вводить назву завдання.
+4. Зберігає завдання.
+5. Переглядає його у списку.
+6. Після виконання позначає завдання як виконане.
