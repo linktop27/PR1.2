@@ -75,7 +75,7 @@ NFR-06| System availability shall be at least 95%.
 ## Product Backlog
 
 ID| User Story| Priority
-|----|-------------|
+|----|------------|----------|
 US-01| As a user, I want to create tasks so that I do not forget important activities.| Must
 US-02| As a user, I want to view all tasks so that I can track my work.| Must
 US-03| As a user, I want to mark tasks as completed so that I can monitor progress.| Must
